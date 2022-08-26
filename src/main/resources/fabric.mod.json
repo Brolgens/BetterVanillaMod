@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "better_vanilla",
+  "version": "${version}",
+
+  "name": "Better Vanilla",
+  "description": "This is the best description! Simply about stuff that are not in Vanilla MC!",
+  "authors": [
+    "ThatBrolgens!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT Licence",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.brolgens.bettervanilla.BetterVanilla"
+    ],
+    "client": [
+      "net.brolgens.bettervanilla.BetterVanillaClient"
+    ]
+  },
+  "mixins": [
+    "bettervanilla.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
