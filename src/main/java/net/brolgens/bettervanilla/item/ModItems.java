@@ -17,7 +17,7 @@ public class ModItems {
 
 
     private static Item registerItem(String name, Item item){
-        return Registry.register(Registry.ITEM, new Identifier(BetterVanilla.MOD_ID), item);
+        return Registry.register(Registry.ITEM, new Identifier(BetterVanilla.MOD_ID, name), item);
     }
 
     public static void registerModItems(){
