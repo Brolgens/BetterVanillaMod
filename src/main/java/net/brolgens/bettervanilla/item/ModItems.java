@@ -12,6 +12,9 @@ public class ModItems {
     public static final Item COPPER_SWORD = registerItem("copper_sword",
             new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
 
+    public static final Item COPPER_AXE = registerItem("copper_axe",
+            new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(BetterVanilla.MOD_ID), item);
