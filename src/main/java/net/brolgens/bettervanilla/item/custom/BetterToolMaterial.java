@@ -1,4 +1,4 @@
-package net.brolgens.bettervanilla.item;
+package net.brolgens.bettervanilla.item.custom;
 
 import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.Items;
@@ -8,7 +8,8 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-public enum ModToolMaterial implements ToolMaterial {
+public enum BetterToolMaterial implements ToolMaterial {
+
     COPPER(MiningLevels.IRON, 200, 6.0f, 1.0f, 20, () -> Ingredient.ofItems(Items.COPPER_INGOT));
 
     private final int miningLevel;
@@ -18,7 +19,7 @@ public enum ModToolMaterial implements ToolMaterial {
     private final int enchantability;
     private final Lazy<Ingredient> repairIngredient;
 
-    ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    BetterToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;
