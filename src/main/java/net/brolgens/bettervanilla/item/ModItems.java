@@ -13,19 +13,15 @@ public class ModItems {
     public static final Item COPPER_SWORD = registerItem("copper_sword",
             new SwordItem(BetterToolMaterial.COPPER, 3, -2.4f,
                     new FabricItemSettings().group(ItemGroup.COMBAT)));
-
     public static final Item COPPER_SHOVEL = registerItem("copper_shovel",
             new ShovelItem(BetterToolMaterial.COPPER, 2.5f, -3.0f,
                     new FabricItemSettings().group(ItemGroup.TOOLS)));
-
     public static final Item COPPER_HOE = registerItem("copper_hoe",
             new CustomHoeItem(BetterToolMaterial.COPPER, -1, -0.5f,
                     new FabricItemSettings().group(ItemGroup.TOOLS)));
-
     public static final Item COPPER_AXE = registerItem("copper_axe",
             new CustomAxeItem(BetterToolMaterial.COPPER, 6.5f, -3.0f,
                     new FabricItemSettings().group(ItemGroup.TOOLS)));
-
     public static final Item COPPER_PICKAXE = registerItem("copper_pickaxe",
             new CustomPickaxeItem(BetterToolMaterial.COPPER, 1, -2.8f,
                     new FabricItemSettings().group(ItemGroup.TOOLS)));

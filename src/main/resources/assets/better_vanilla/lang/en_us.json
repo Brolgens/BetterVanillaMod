@@ -3,5 +3,9 @@
   "item.better_vanilla.copper_shovel": "Copper Shovel",
   "item.better_vanilla.copper_hoe": "Copper Hoe",
   "item.better_vanilla.copper_axe": "Copper Axe",
-  "item.better_vanilla.copper_pickaxe": "Copper Pickaxe"
+  "item.better_vanilla.copper_pickaxe": "Copper Pickaxe",
+  "item.better_vanilla.copper_helmet": "Copper Helmet",
+  "item.better_vanilla.copper_chestplate": "Copper Chestplate",
+  "item.better_vanilla.copper_leggings": "Copper Leggings",
+  "item.better_vanilla.copper_boots": "Copper Boots"
 }
