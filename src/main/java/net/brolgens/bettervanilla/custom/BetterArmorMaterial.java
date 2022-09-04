@@ -1,5 +1,6 @@
-package net.brolgens.bettervanilla.item.custom;
+package net.brolgens.bettervanilla.custom;
 
+import net.brolgens.bettervanilla.item.ModItems;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Items;
@@ -12,7 +13,8 @@ import java.util.function.Supplier;
 
 public enum BetterArmorMaterial implements ArmorMaterial {
 
-    COPPER("copper", 15, new int[]{2, 4, 5, 2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.COPPER_INGOT));
+    COPPER("copper", 15, new int[]{2, 4, 5, 2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    RUBY("ruby", 17, new int[]{3, 8, 6, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5f, 0.025f, () -> Ingredient.ofItems(ModItems.RUBY));
 
     private static final int[] BASE_DURABILITY;
 

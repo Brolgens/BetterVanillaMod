@@ -7,5 +7,18 @@
   "item.better_vanilla.copper_helmet": "Copper Helmet",
   "item.better_vanilla.copper_chestplate": "Copper Chestplate",
   "item.better_vanilla.copper_leggings": "Copper Leggings",
-  "item.better_vanilla.copper_boots": "Copper Boots"
+  "item.better_vanilla.copper_boots": "Copper Boots",
+  "item.better_vanilla.ruby": "Ruby",
+  "item.better_vanilla.ruby_sword": "Ruby Sword",
+  "item.better_vanilla.ruby_shovel": "Ruby Shovel",
+  "item.better_vanilla.ruby_hoe": "Ruby Hoe",
+  "item.better_vanilla.ruby_axe": "Ruby Pickaxe",
+  "item.better_vanilla.ruby_pickaxe": "Ruby Pickaxe",
+  "item.better_vanilla.ruby_helmet": "Ruby Helmet",
+  "item.better_vanilla.ruby_chestplate": "Ruby Chestplate",
+  "item.better_vanilla.ruby_leggings": "Ruby Leggings",
+  "item.better_vanilla.ruby_boots": "Ruby Boots",
+  "block.better_vanilla.ruby_block": "Ruby Block",
+  "block.better_vanilla.ruby_ore": "Ruby Ore",
+  "block.better_vanilla.deepslate_ruby_ore": "Deepslate Ruby Ore"
 }

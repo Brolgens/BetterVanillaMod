@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "c c",
+    "c c"
+  ],
+  "key": {
+    "c": {
+      "item": "better_vanilla:ruby"
+    }
+  },
+  "result": {
+    "item": "better_vanilla:ruby_leggings",
+    "count": 1
+  }
+}

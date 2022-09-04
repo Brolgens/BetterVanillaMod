@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "c": {
+      "item": "better_vanilla:ruby"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "better_vanilla:ruby_pickaxe",
+    "count": 1
+  }
+}

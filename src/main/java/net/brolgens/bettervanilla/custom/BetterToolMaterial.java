@@ -1,5 +1,6 @@
-package net.brolgens.bettervanilla.item.custom;
+package net.brolgens.bettervanilla.custom;
 
+import net.brolgens.bettervanilla.item.ModItems;
 import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
@@ -10,7 +11,8 @@ import java.util.function.Supplier;
 
 public enum BetterToolMaterial implements ToolMaterial {
 
-    COPPER(MiningLevels.IRON, 200, 6.0f, 1.0f, 20, () -> Ingredient.ofItems(Items.COPPER_INGOT));
+    COPPER(MiningLevels.IRON, 200, 6.0f, 1.0f, 20, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    RUBY(MiningLevels.DIAMOND, 1200, 9.0f, 2.0f, 12, () -> Ingredient.ofItems(ModItems.RUBY));
 
     private final int miningLevel;
     private final int itemDurability;

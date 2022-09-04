@@ -1,4 +1,4 @@
-package net.brolgens.bettervanilla.item.custom;
+package net.brolgens.bettervanilla.custom;
 
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ToolMaterial;
